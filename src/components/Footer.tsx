@@ -21,9 +21,6 @@ export const Footer: React.FC<FooterProps> = ({ settings, onOpenAdmin }) => {
         
         {/* Brand, Copyright & Creator Credit */}
         <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4 text-xs text-neutral-600 dark:text-neutral-400 text-center sm:text-left">
-          <span className="font-serif-luxury text-base tracking-widest text-neutral-900 dark:text-white uppercase font-semibold">
-            Kroma Studio
-          </span>
           <span className="hidden sm:inline text-neutral-400 dark:text-neutral-600">·</span>
           <span>© {new Date().getFullYear()} {photographerName}. All rights reserved.</span>
           <span className="hidden sm:inline text-neutral-400 dark:text-neutral-600">·</span>

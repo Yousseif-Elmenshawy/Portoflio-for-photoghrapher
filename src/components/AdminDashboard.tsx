@@ -351,9 +351,6 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
           <p className="text-xs text-neutral-400 mb-6 leading-relaxed">
             Please log in with your credentials to manage your portfolio, exhibitions, and inquiries.
           </p>
-          <p className="text-[11px] text-amber-400/90 mb-6">
-            Preview access: <span className="font-mono">admin</span> / <span className="font-mono">admin123</span>. Changes stay in this browser.
-          </p>
 
           <form onSubmit={handleLogin} className="space-y-5">
             <div>
